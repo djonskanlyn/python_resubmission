@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div id="chart" style="width:600px; height:300px;"></div>
+
+    <script src="{{ url_for('static', filename='js/flotr2.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/chapter1.js') }}"></script>
+{% endblock %}
